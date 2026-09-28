@@ -1,0 +1,5 @@
+{
+  "name": "Aulas UPCA",
+  "image":"mcr.microsoft.com/devcontainers/base:ubuntu",
+  "postCreateCommand":"sudo apt-get update && sudo DEBIAN_FRONTEND=noninteractive apt-get install -y tshark python3 curl"
+}
